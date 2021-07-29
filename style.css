@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;600;700;800&display=swap');
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body {
+    width: 100%;
+    background: #ebf6ff;
+}
+.container {
+    width: 1100px;
+    height: auto;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+header {
+    background: #fff;
+    box-shadow: 0px 0px 12px 2px rgb(0 0 0 / 0.2);
+}
+header .container .head {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 20px;
+    
+}
+header .container .head .logo {
+    font-size: 30px;
+    font-weight: 700;
+}
+header .container .head .logo a {
+    color: #000;
+}
+header .container .head .nav ul {
+    display: flex;
+}
+header .container .head .nav ul li {
+    list-style: none;
+}
+header .container .head .nav ul li a{
+    color: #000;
+    font-size: 12px;
+    font-weight: 300;
+    padding: 10px 20px;
+    margin: 0 7px;
+
+}
+header .container .head .nav ul li #nav-akhir{
+    color: #fff;
+    background-color: #10b8d1;
+    border-radius: 20px;
+}
+section .container .isi {
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+section .container .isi .l-content {
+    width: 50%;
+    margin: 130px 0 0 0;
+}
+section .container .isi .l-content .text{
+    margin: 15px 0;
+}
+section .container .isi .l-content .text h1{
+    font-size: 45px;
+    font-weight: 800;
+    margin: 15px 0;
+}
+section .container .isi .l-content .text span{
+    color: #1078d1;
+}
+section .container .isi .l-content .text p{
+    font-size: 13px;
+    margin: 10px 0 20px 0;
+    color: #334257;
+}
+section .container .isi .l-content .button{
+    margin: 40px 0 35px 0;
+}
+section .container .isi .l-content .button a{
+    font-size: 13px;
+    padding: 12px 20px;
+    color: #fff;
+    border: none;
+    border-radius: 30px;
+    background-color: #10b8d1;
+}
+section .container .isi .l-content .button a i{
+    margin: 0 0 0 10px;
+}
+section .container .isi .l-content .media{
+    margin: 110px 0 0 0;
+}
+section .container .isi .l-content .media i{
+    font-size: 17px;
+    margin: 0 10px 0 0;
+}
+section .container .isi .l-content .media #fb{
+    color: #3b5998;
+}
+section .container .isi .l-content .media #ig{
+    color: #dd2a7b;
+}
+section .container .isi .l-content .media #tw{
+    color: #00acee;
+}
+section .container .isi .r-content {
+    width: 50%;
+}
+section .container .isi .r-content .image img {
+    width: 80%;
+    margin: 0 0 0 100px;
+}
+section .container .isi .r-content .tema {
+    float: right;
+    margin: 50px 10px 0 0;
+}
+section .container .isi .r-content .tema button {
+    font-size: 10px;
+    color: #fff;
+    font-weight: 600;
+    padding: 7px 15px;
+    margin: 0 3px;
+    border-radius: 15px;
+    border: none;
+}
+section .container .isi .r-content .tema button.biru {
+    background: #00acee;
+}
+section .container .isi .r-content .tema button.pink {
+    background: #ff95dd;
+}
